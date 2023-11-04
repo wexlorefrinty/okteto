@@ -65,7 +65,7 @@ func Test_Get(t *testing.T) {
 			}
 
 			if got := get().Enabled; got != tt.want {
-				t.Errorf("After Init, got %v, want %v", got, tt.want)
+				t.Errorf("After Start, got %v, want %v", got, tt.want)
 			}
 
 		})
